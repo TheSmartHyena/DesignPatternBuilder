@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+// Product
 public class Pizza {
     private String base;
     private int taille;
@@ -43,6 +43,7 @@ public class Pizza {
         return result;
     }
 
+    // ConcreteBuilder
     public static class PizzaBuilder implements IPizzaBuilder {
         private String base = "Tomate";
         private int taille = 30;
