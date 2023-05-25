@@ -34,7 +34,7 @@ public class Pizza {
 
         result += "Pizza base: " + this.base + ", ";
         result += "taille: " + this.taille + ", ";
-        result += "pâte épaisse: " + (this.estPateEpaisse ? "vrai" : "faix")  + ", ";
+        result += "pâte épaisse: " + (this.estPateEpaisse ? "vrai" : "faux")  + ", ";
         result += "pâte garnitures: ";
         for (String garniture : this.garnitures) {
             result += garniture  + ", ";
